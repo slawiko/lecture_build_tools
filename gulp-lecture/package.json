@@ -1,0 +1,16 @@
+{
+  "name": "gulp-lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:dist": "gulp clean:dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-tsc": "^1.3.2"
+  }
+}
