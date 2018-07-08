@@ -1,14 +1,15 @@
 {
-  "name": "npm-scripts-lecture",
+  "name": "yarn",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@angular/common": "6.0.6",
+    "typescript": "^2.9.2"
+  },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "uglify-js": "^3.0.25"
-  }
+  "license": "ISC"
 }

@@ -1,0 +1,19 @@
+{
+  "name": "npm-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "echo prestart",
+    "start": "echo ${npm_package_dependencies}",
+    "poststart": "echo poststart",
+    "foo": "echo poststart",
+    "prefoo": "echo prefoo"
+  },
+  "dependencies": {
+    "@angular/common": "6.0.6",
+    "typescript": "^2.9.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
